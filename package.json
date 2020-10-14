@@ -1,0 +1,26 @@
+{
+  "name": "qdp",
+  "version": "1.0.0",
+  "description": "Quickly build the project!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qdp-cli/qdp.git"
+  },
+  "author": "tongling",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qdp-cli/qdp/issues"
+  },
+  "bin": {
+    "qdp": "bin/index.js"
+  },
+  "homepage": "https://github.com/qdp-cli/qdp#readme",
+  "dependencies": {
+    "@vue/cli": "^4.5.7",
+    "commander": "^6.1.0"
+  }
+}
